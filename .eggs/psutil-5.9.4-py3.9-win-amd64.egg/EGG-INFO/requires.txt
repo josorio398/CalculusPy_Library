@@ -1,0 +1,4 @@
+
+[test]
+pywin32
+wmi

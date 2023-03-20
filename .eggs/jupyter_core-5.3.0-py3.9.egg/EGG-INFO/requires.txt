@@ -1,0 +1,17 @@
+platformdirs>=2.5
+pywin32>=300
+traitlets>=5.3
+
+[docs]
+myst-parser
+sphinx-autodoc-typehints
+sphinxcontrib-github-alt
+sphinxcontrib-spelling
+traitlets
+
+[test]
+ipykernel
+pre-commit
+pytest
+pytest-cov
+pytest-timeout

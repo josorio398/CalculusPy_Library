@@ -1,0 +1,5 @@
+six
+
+[test]
+astroid
+pytest

@@ -1,0 +1,10 @@
+asttokens>=2.1.0
+executing>=1.2.0
+pure-eval
+
+[tests]
+cython
+littleutils
+pygments
+pytest
+typeguard

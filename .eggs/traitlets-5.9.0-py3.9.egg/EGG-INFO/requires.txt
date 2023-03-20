@@ -1,0 +1,11 @@
+
+[docs]
+myst-parser
+pydata-sphinx-theme
+sphinx
+
+[test]
+argcomplete>=2.0
+pre-commit
+pytest
+pytest-mock
