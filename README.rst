@@ -1,8 +1,8 @@
 CalculusPy
 ==========
 
-CalculusPy es una librería escrita en Python,  diseñada para ayudar a los profesores y estudiantes a entender el material básico de un curso estándar 
-de cálculo de una variable.
+CalculusPy is a library written in Python, designed to help teachers and students to understand the basic material of a standard course 
+calculus of one variable.
 
 |travis| |Group| |coveralls| |libraries| |lgtm| |Languages| |IDE| |Education|
 
