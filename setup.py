@@ -3,7 +3,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -93,8 +93,8 @@ setup(
     long_description=read("README.rst"),
     author='Jhonny Osorio Gallego',
     author_email='osoriojohnny1986@gmail.com',
-    url='https://github.com/josorio398/PyCal_Library',
-    download_url='https://github.com/josorio398/PyCal_Library/blob/main/PyCal/RiemannSums.py'.format(
+    url='https://github.com/josorio398/CalculusPy_Library',
+    download_url='https://github.com/josorio398/CalculusPy_Library/blob/master/CalculusPy/RiemannSums.pyy'.format(
         VERSION),
     keywords=['calculus','riemann','plot','riemann sum'],
     install_requires=[
