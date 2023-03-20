@@ -3,7 +3,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.2"
+VERSION = "1.0.3"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -98,9 +98,9 @@ setup(
         VERSION),
     keywords=['calculus','riemann','plot','riemann sum'],
     install_requires=[
-        'plotly',"numpy","sympy","ipywidgets"
+        'plotly==5.11.0',"numpy","sympy","ipywidgets"
     ],
-    setup_requires=['plotly',"numpy","sympy","ipywidgets"],
+    setup_requires=['plotly==5.11.0',"numpy","sympy","ipywidgets"],
     tests_require=[
         'pytest',
         'pytest-cov',
