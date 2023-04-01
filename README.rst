@@ -53,6 +53,7 @@ To import  you can use:
 .. code:: python
 
     from CalculusPy.RiemannSums import plot_riemann_sum
+    from CalculusPy.SlopeFields import slope_fields
 
 Maintainer
 ==========

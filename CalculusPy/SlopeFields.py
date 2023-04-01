@@ -1,11 +1,11 @@
 import numpy as np
 import plotly.graph_objects as go
-import sympy as sp
+from sympy import *
 
-def SlopeFields(dydx, n=25, lengthSlope=0.2, xMin=-5, xMax=5, yMin=-5, yMax=5, ics=None):
-    x = sp.symbols('x', real=True)
-    y = sp.Function('y', real=True)
-    dydx_func = sp.lambdify((x, y(x)), dydx, 'numpy')
+def slope_fields(dydx, n=25, lengthSlope=0.2, xMin=-5, xMax=5, yMin=-5, yMax=5, ics=None):
+    x = symbols('x', real=True)
+    y = Function('y', real=True)
+    dydx_func = lambdify((x, y(x)), dydx, 'numpy')
 
     def calcPointsFromPointAndSlope(x, y, slope, length):
         deltaX = length / np.sqrt(1 + slope**2)
@@ -28,10 +28,10 @@ def SlopeFields(dydx, n=25, lengthSlope=0.2, xMin=-5, xMax=5, yMin=-5, yMax=5, i
 
     if ics != None:
         name_x,name_y = tuple(ics.items())[0][0], tuple(ics.items())[0][1]
-        edo = sp.Eq(diff(y(x),x),dydx)
-        sol = sp.dsolve(edo, ics=ics)
+        edo = Eq(diff(y(x),x),dydx)
+        sol = dsolve(edo, ics=ics)
         # Lambdify the solution using numpy
-        sol_lambdified = sp.lambdify(x, sol.rhs, 'numpy')
+        sol_lambdified = lambdify(x, sol.rhs, 'numpy')
 
         x_vals = np.linspace(xMin, xMax, 1000)
 
