@@ -3,7 +3,8 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.3"
+#$ git push origin HEAD:main
+VERSION = "1.0.4"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
