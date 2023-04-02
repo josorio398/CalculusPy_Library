@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 from sys import version_info
 
 #$ git push origin HEAD:main
-VERSION = "1.0.5"
+VERSION = "1.0.6"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
