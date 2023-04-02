@@ -2,6 +2,7 @@ LICENSE
 README.rst
 setup.py
 CalculusPy/RiemannSums.py
+CalculusPy/SlopeFields.py
 CalculusPy/__init__.py
 CalculusPy.egg-info/PKG-INFO
 CalculusPy.egg-info/SOURCES.txt
@@ -9,4 +10,5 @@ CalculusPy.egg-info/dependency_links.txt
 CalculusPy.egg-info/requires.txt
 CalculusPy.egg-info/top_level.txt
 tests/__init__.py
-tests/test_riemmansum.py
+tests/test_RiemannSums.py
+tests/test_SlopeFields.py

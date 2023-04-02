@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: CalculusPy
-Version: 1.0.0
+Version: 1.0.5
 Summary: Tool for teaching calculus in one variable.
-Home-page: https://github.com/josorio398/PyCal_Library
+Home-page: https://github.com/josorio398/CalculusPy_Library
 Author: Jhonny Osorio Gallego
 Author-email: osoriojohnny1986@gmail.com
 License: CC BY-NC-SA 4.0
-Download-URL: https://github.com/josorio398/PyCal_Library/blob/main/PyCal/RiemannSums.py
+Download-URL: https://github.com/josorio398/CalculusPy_Library/blob/master/CalculusPy/RiemannSums.pyy
 Keywords: calculus,riemann,plot,riemann sum
 Platform: UNKNOWN
 Classifier: Development Status :: 4 - Beta
@@ -23,8 +23,8 @@ License-File: LICENSE
 CalculusPy
 ==========
 
-CalculusPy es una librería escrita en Python,  diseñada para ayudar a los profesores y estudiantes a entender el material básico de un curso estándar 
-de cálculo de una variable.
+CalculusPy is a library written in Python, designed to help teachers and students to understand the basic material of a standard course 
+calculus of one variable.
 
 |travis| |Group| |coveralls| |libraries| |lgtm| |Languages| |IDE| |Education|
 
@@ -75,6 +75,7 @@ To import  you can use:
 .. code:: python
 
     from CalculusPy.RiemannSums import plot_riemann_sum
+    from CalculusPy.SlopeFields import slope_fields
 
 Maintainer
 ==========
